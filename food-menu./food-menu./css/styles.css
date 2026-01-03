@@ -1,0 +1,69 @@
+body {
+  background-color: #fff8f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  border: none;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav li a {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Title */
+.main-title {
+  margin: 15px 0;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Food Cards – VERY SMALL */
+.food-card {
+  min-height: 160px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.food-card h3 {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.food-card p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+/* Price */
+.price {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+/* Colors */
+.chicken { background-color: #ff7043; }
+.beef    { background-color: #6d4c41; }
+.pizza   { background-color: #ffa726; }
+.burger  { background-color: #ef5350; }
+.sushi   { background-color: #26a69a; }
+.dessert { background-color: #ab47bc; }
+.drinks  { background-color: #42a5f5; }
+
+/* Mobile menu */
+.navbar-nav {
+  background-color: #dd2476;
+}
